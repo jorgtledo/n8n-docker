@@ -1,0 +1,19 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+x509_extensions = v3_req
+
+[dn]
+C=AR
+ST=Buenos Aires
+L=Buenos Aires
+O=ITResources
+CN=itrs0118.intranet.itresources
+
+[v3_req]
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = itrs0118.intranet.itresources
