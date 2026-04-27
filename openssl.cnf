@@ -9,11 +9,11 @@ x509_extensions = v3_req
 C=AR
 ST=Buenos Aires
 L=Buenos Aires
-O=ITResources
-CN=itrs0118.intranet.itresources
+O=IT
+CN=myserver.com
 
 [v3_req]
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = itrs0118.intranet.itresources
+DNS.1 = myserver.com
